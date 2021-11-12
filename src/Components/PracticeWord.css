@@ -1,0 +1,9 @@
+.practice-word{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    height: 1rem;
+}
+

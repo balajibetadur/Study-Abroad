@@ -1,0 +1,45 @@
+
+.notes-body{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    bottom: 0;
+    z-index: 999;
+    padding: 10px 20%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.notes-cancel{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+.add-note{
+    background-color: #1f2129e7;
+    background-image: linear-gradient(#2e313be7, #2e313be7);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    width: 665px;
+    cursor: pointer;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.add-note:hover{
+    border-radius: 10px;
+    background-size: 100% 100%;
+}

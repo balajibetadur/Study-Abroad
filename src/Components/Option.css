@@ -1,0 +1,13 @@
+.option{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 2.2rem;
+    margin-left: 0;
+}
+
+
+.option-text{
+    margin-left: 10px;
+}

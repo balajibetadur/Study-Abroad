@@ -1,0 +1,136 @@
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+
+.message{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    animation: transitionIn 1s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.background{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.829);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    z-index: 1;
+    animation: transitionIn 1s;
+}
+
+
+.focus{
+    height: 40%;
+    background-color: #202020;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.focus-shuffle{
+    cursor: pointer;
+}
+
+.all{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 53%;
+}
+
+.star-question{
+    padding: 10px;
+    border-right: solid 1px rgb(90, 87, 87, 0.5);
+    min-width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Word{
+    text-align: center;
+}
+
+.image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.image img{
+    border-radius: 10px; 
+    object-fit: cover;
+    width: 200px;
+    height: auto;   
+}
+
+.star-answer{
+    padding: 10px;
+    min-width: 25%;
+    border-right: solid 1px rgb(90, 87, 87, 0.5);
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.answers{
+    padding: 15px;
+}
+
+.syns{
+    padding: 10px;
+    text-align: center;
+    min-width: 35%;
+}
+
+.all-syns{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 75%;
+}
+
+
+  
+.syn-meaning{
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.tag{
+    background-color: rgb(90, 87, 87, 0.5);
+    border-radius: 5px;
+    margin: 0;
+}
+
+.tag-syn{
+    background-color: rgb(90, 87, 87, 0.5);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+

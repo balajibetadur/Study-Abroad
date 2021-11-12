@@ -1,0 +1,19 @@
+.header{
+    background-color: #1a1c28e7;
+    color: white;
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.header-title{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+}
+

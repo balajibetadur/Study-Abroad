@@ -1,0 +1,32 @@
+
+
+.flash-card{
+    margin: 10px;
+    background-color: rgba(49, 47, 53, 0.849);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: calc(100% / 5.9);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+.flash-card:hover{
+    background-color: rgb(117, 115, 121);
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.card-number{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(209, 203, 216);
+    font-size: 12px;
+    font-weight: bold;
+}

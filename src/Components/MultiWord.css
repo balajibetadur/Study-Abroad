@@ -1,0 +1,58 @@
+.card{
+    height: 80px;
+    width: 196px;
+    background-color: #242424;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.word-id{
+    color: #242424;
+    font-weight:bolder;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    background-color: #4b4847;
+}
+
+.action{
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+
+.star{
+    color: rgb(252, 248, 58);
+    transform: scale(0.8);
+}
+
+.unstar{
+    color: rgb(78, 78, 76);
+    transform: scale(0.8);
+}
+
+.delete{
+    transform: scale(0.8);
+    opacity: 0.2;
+}
+
+.delete:hover{
+    opacity: 1;
+}
+
+.syn-meaning{
+    font-size: 14px;
+}
